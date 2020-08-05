@@ -1,0 +1,15 @@
+NAMUGABO WINFRED
+2018-B071-10011
+
+
+
+
+CREATE DATABASE gulu;
+
+CREATE TABLE users(
+      u_id INT(6) AUTO_INCREMENT PRIMARY KEY, 
+      fname VARCHAR(200) NOT NULL , 
+      lname VARCHAR(200) NOT NULL, 
+      user_email VARCHAR(200), 
+      passwd   VARCHAR(200) NOT NULL  
+       );
